@@ -1,0 +1,12 @@
+<% content_for :title, "Editing envio" %>
+
+<h1>Editing envio</h1>
+
+<%= render "form", envio: @envio %>
+
+<br>
+
+<div>
+  <%= link_to "Show this envio", @envio %> |
+  <%= link_to "Back to envios", envios_path %>
+</div>

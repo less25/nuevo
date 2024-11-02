@@ -1,0 +1,146 @@
+/* custom.css */
+
+/* Reset some default styles */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Basic body styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.4; /* Disminuir el line-height */
+  background: url('https://i.pinimg.com/1200x/ba/13/d4/ba13d47777bf8ed8c8244b380c8e76f0.jpg') no-repeat center center fixed; /* Añadir imagen de fondo */
+  background-size: cover; /* Ajustar el tamaño de la imagen para que cubra todo el fondo */
+  color: #333;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-end; /* Centrar contenido horizontalmente a la derecha */
+  text-align: center; /* Centrar el texto en el body */
+}
+
+/* Header styles */
+header {
+  background: rgba(51, 51, 51, 0.8);
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+/* Navigation styles */
+nav {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
+}
+
+nav a:hover {
+  color: #007BFF;
+}
+
+/* Main content styles */
+.container {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  margin: 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  display: flex;
+  flex-direction: column; /* Para apilar elementos verticalmente */
+  align-items: flex-end; /* Centrar contenido a la derecha */
+  text-align: left; /* Alinear el texto a la izquierda */
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 22px;
+  border-bottom: 2px solid #333;
+  padding-bottom: 10px;
+  text-align: right; /* Alinear el texto del título a la derecha */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  font-size: 14px; /* Reducir el tamaño de la fuente */
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 8px; /* Reducir el padding */
+  text-align: left;
+}
+
+th {
+  background: #333;
+  color: #fff;
+}
+
+tr:nth-child(even) {
+  background: #f4f4f4;
+}
+
+form {
+  margin-top: 20px;
+  font-size: 14px; /* Reducir el tamaño de la fuente */
+  width: 100%; /* Tomar el ancho completo */
+  max-width: 400px; /* Limitar el ancho máximo del formulario */
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  text-align: left; /* Alinear el texto de la etiqueta a la izquierda */
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="number"],
+form input[type="date"],
+form input[type="password"],
+form textarea,
+form select {
+  width: 100%;
+  padding: 6px; /* Reducir el padding */
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 12px; /* Reducir el tamaño de la fuente */
+}
+
+form input[type="submit"],
+form input[type="button"],
+form button {
+  background: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 14px; /* Asegurarse de que el tamaño de la fuente sea consistente */
+}
+
+form input[type="submit"]:hover,
+form input[type="button"]:hover,
+form button:hover {
+  background: #007BFF;
+}

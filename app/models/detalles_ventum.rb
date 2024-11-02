@@ -1,0 +1,2 @@
+class DetallesVentum < ApplicationRecord
+end

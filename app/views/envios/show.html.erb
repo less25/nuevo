@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @envio %>
+
+<div>
+  <%= link_to "Edit this envio", edit_envio_path(@envio) %> |
+  <%= link_to "Back to envios", envios_path %>
+
+  <%= button_to "Destroy this envio", @envio, method: :delete %>
+</div>
